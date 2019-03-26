@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,600,900|Roboto:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,900|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -72,7 +72,6 @@
 						<li><a href="./">this is a link</a></li>
 					</ul>
 				</li>
-				<li><a href="./">businesses</a></li>
 				<li><a href="./">visitors</a></li>
 				<li><a href="./">how do i...</a></li>
 			</ul> <!-- /#nav -->
@@ -81,12 +80,13 @@
 		<div class="social-links hidden-sm hidden-xs">
 			<a href="./" class="fa fa-facebook"></a>
 			<a href="./" class="fa fa-twitter"></a>
+			<a href="./" class="fa fa-instagram"></a>
 		</div><!-- /.social-links -->
 
 		<div id="search">
 			<form class="search-form" method="get" action="search.php">
 				<label class="fa fa-search" for="search-input"></label>
-				<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
+				<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
 				<button><i class="fa fa-search"></i></button>
 			</form><!-- /.search-form -->
 		</div><!-- /#search -->
