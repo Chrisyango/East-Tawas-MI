@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,900|Roboto:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,900|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -100,12 +100,13 @@
 	</div><!-- /.container -->
 </header><!-- /.clearfix -->
 
-<section id="slider" style="display:none;">
+<section id="slider">
 	<ul class="bxslider">
-		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;"></li>
 	</ul><!-- /.bxslider -->
 
 	<div class="container">
+		<div id="hero-effect" style="background:url('./_assets_/images/hero-effect.png') center no-repeat;background-size:cover;"></div>
 		<h1><span>welcome to</span>east tawas<span>michigan</span></h1>
 	</div><!-- /.container -->
 </section><!-- /#slider -->

@@ -244,7 +244,12 @@ nav,
 
 
 /*--------------- #slider ---------------*/
-
+#slider {position: relative; height: 700px;}
+#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-49.75%, -47%); text-align: center; z-index: 51;}
+#slider h1 {position: relative; font-size: 98px; line-height: 89px; letter-spacing: 0.1em; font-weight: 700; text-transform: uppercase; color:#fff; text-shadow: 0px 0px 13.92px rgba(0, 0, 0, 0.52); z-index: 1;}
+#slider h1 span {display: block; font-size: 22px; letter-spacing: 0.4em; font-weight: 600; line-height: 45px;}
+#slider h1 span:last-of-type {line-height: 51px;}
+#hero-effect {position: absolute; top: 50%; left: 50%; transform: translate(-51%, -53%); height: 540px; width: 535px; opacity: 0.3;}
 
 /* -----------------------------------------
 
@@ -302,6 +307,8 @@ nav,
 .bx-viewport,
 .bxslider li,
 .bx-wrapper{height:100%!important}
+
+.bxslider>li:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;z-index:50;background-image:linear-gradient(transparent 70%, rgba(0,0,0,1));}
 
 .bx-wrapper{position:relative;margin:0;padding:0;*zoom:1;overflow:hidden}
 .bx-wrapper *{margin:0;padding:0}
