@@ -263,7 +263,7 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 
 
 /*--------------- #content ---------------*/
-#content {margin-top: 38px;}
+#content {position: relative; margin-top: 38px; padding-bottom: 96px;}
 #content .btn {position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); font-size: 12px; letter-spacing: 0.1em; font-weight: 600!important; height: 35px; border-radius: 17.5px;}
 #content h2 {font-size: 38px; line-height: 89px; font-weight: 700; color: #005896; text-align: center; text-transform: uppercase;}
 
@@ -283,8 +283,21 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 
 #events {position: relative; padding: 46px 0 85px;}
 #events h2 {margin-bottom: 6px;}
-#events img {width: 920px; display: block; margin: 0 auto;}
+#events img {width: 921px; display: block; margin: 0 auto;}
 #events a.btn {width: 237px;}
+
+
+/*--------------- footer ---------------*/
+footer {color:#fff; line-height: 28px;}
+#top-footer {background-color: #052f4c; padding: 46px 0 47px; font-size: 15px; font-weight: 600;}
+#contact-info {float: left;}
+#contact-info span:not(:last-of-type):after {content: '\2022'; margin: 0 9px 0 12px;}
+#top-footer .social-links {float: right; margin: 8px 0 0;}
+#top-footer .social-links a {margin-left: 3px;}
+#revize-logo {background-color: #031928;text-align:center; font-size: 13px; font-weight: 500; padding: 5px 0 7px;}
+#revize-logo a {color:#90b7d2;text-decoration: none;text-transform: capitalize;}
+#revize-logo span {position: relative; margin-right: 12px;}
+#revize-logo span:after {content:''; position: absolute; top: 3px; right: -7px; bottom: 0; background-color: #fff; width: 1px;}
 
 
 /* -----------------------------------------

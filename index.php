@@ -139,8 +139,7 @@
 		</div><!-- /.container -->
 	</section><!-- /#quick-links -->
 
-	<section id="content">
-		<div id="content-bg" style="background:url('./_assets_/images/content-bg.jpg) center no-repeat;background-size:cover;"></div>
+	<section id="content" style="background:url('./_assets_/images/content-bg.jpg') center no-repeat;background-size:cover;">
 		<section id="news">
 			<div class="container">
 				<h2>recent news</h2>
@@ -204,7 +203,7 @@
 		
 	<section id="revize-logo">
 		<div class="container">
-			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a> - The Government Website Experts.</span>
+			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, the Government Website Experts.</span>
 			<a href="./">login</a>
 		</div><!-- /.container -->
 	</section><!-- /#revize-logo -->
