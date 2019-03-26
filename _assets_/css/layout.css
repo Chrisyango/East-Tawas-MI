@@ -229,7 +229,7 @@ header .container {width: 1480px;}
 #logo {float: left; width: 301px; margin: 11px 0 10px;}
 nav,
 #nav {display: inline-block; margin: 0; padding: 0; margin-right: 6px;}
-#nav li {display: inline-block; margin: 0;}
+#nav li {display: inline-block; margin: 0; position: relative;}
 #nav li a {display: block; font-size: 16px; line-height: 20px; font-weight: 600; text-transform: uppercase; text-decoration: none; color: #3a3a3a; padding: 41px 11px 39px;}
 #nav ul {display: none; margin: 0; padding: 0;}
 
@@ -242,21 +242,8 @@ nav,
 #search input::placeholder {font-size: 13px; color: #fff;}
 #search button {position: absolute; top: 3px; right: 2px; font-size: 16px; width: 30px; height: 30px; line-height: 30px; text-align: center; padding: 0; border-radius: 50%; background-color: #fff; color: #005896!important;}
 
-#nav-toggle,
-.toggle,
-.toggle2{display:none}
 
-#nav>li>ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 40px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 40px;
-    column-count: 4;
-    column-gap: 40px;
-    padding:40px
-}
-#nav>li>ul li{display:inline-block;width:100%}
-#nav>li>ul li a{display:block}
+/*--------------- #slider ---------------*/
 
 
 /* -----------------------------------------
@@ -350,6 +337,18 @@ nav,
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
+
+
+	/*--------------- #nav ---------------*/
+	#nav-toggle,
+	.toggle,
+	.toggle2{display:none}
+
+	#nav li:hover>ul {display: block;}
+	#nav ul {position: absolute; background-color: #035995; text-align: left; top: 100%; left: 14px; padding: 9px 0 11px; border-radius: 0 0 5px 5px;}
+	#nav ul li a {font-size: 12px; line-height: 29px; font-weight: 500; color: #fff; text-transform: capitalize; padding: 0 19px; width: 200px;}
+	#nav ul ul {top: 0; left: 100%; border-radius: 0 5px 5px 0;}
+	#nav>li:hover>a.mega:after{content:'';position:absolute;bottom:0px;left:14px;right:6px;height:5px;background-color:#d13742;border-radius:2px 2px 0 0}
 
 }
 
