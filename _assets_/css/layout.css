@@ -108,21 +108,21 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-.btn{padding:10px 20px;background:#0f99ee;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:'Montserrat',sans-serif;text-transform:uppercase;transition:background .3s}
+.btn{padding:10px 20px;background:#005896;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:'Montserrat',sans-serif;text-transform:uppercase;transition:background .3s}
 .button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#005896}
 .button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
-.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#005896}
 button::-moz-focus-inner,
 input::-moz-focus-inner{border:0;padding:0}
 
@@ -216,7 +216,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 body{overflow-x:hidden}
-.container {max-width:100%;width: 1170px;}
+.container {max-width:100%;width: 1200px;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 #skip{position:fixed;top:150px;left:-100%;-webkit-transition:all .3s ease-in;transition:all .3s ease-in;z-index:100}
@@ -250,6 +250,34 @@ nav,
 #slider h1 span {display: block; font-size: 22px; letter-spacing: 0.4em; font-weight: 600; line-height: 45px;}
 #slider h1 span:last-of-type {line-height: 51px;}
 #hero-effect {position: absolute; top: 50%; left: 50%; transform: translate(-51%, -53%); height: 540px; width: 535px; opacity: 0.3;}
+
+
+/*--------------- #quick-links ---------------*/
+#quick-links {position: relative; margin-top: -91px; z-index: 51;}
+#quick-links .container {width: 1480px;}
+#quick-links-wrapper .owl-item {padding: 0 0 0 42px;}
+a.quick-link {position: relative; display: block; text-decoration: none; color: #90b7d2;}
+a.quick-link:after {content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: 1px; background: rgba(144,183,210,.3);}
+a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate(-30%, -60%); font-size: 16px; line-height: 19px; letter-spacing: 0.1em; font-weight: 700; text-transform: uppercase; color: #fff;}
+.quick-link-img {display: inline-block; width: 58px; height: 47px;}
+
+
+/*--------------- #content ---------------*/
+#content {margin-top: 38px;}
+#content .btn {position: absolute; font-size: 12px; letter-spacing: 0.1em; font-weight: 600!important; width: 225px; height: 35px; border-radius: 17.5px;}
+
+#news {position: relative; padding: 64px 0;}
+#news h2 {font-size: 38px; line-height: 89px; font-weight: 700; color: #005896; text-align: center; text-transform: uppercase; margin-bottom: 14px;}
+#news a.btn {left: 50%; bottom: 18px; transform: translateX(-50%);}
+#news-links .owl-height {height: 500px!important;}
+.news-link {border-radius: 5px; box-shadow: 0px 3px 20.37px 0.63px rgba(0, 0, 0, 0.08);}
+.news-link-img {width: 100%; height: 300px; border-radius: 5px 5px 0 0;}
+.news-info {padding: 28px 35px 51px; background-color: #fff; border-radius: 0 0 5px 5px;}
+.news-link span {font-size: 12px; font-weight: 700; text-transform: uppercase; color: #d13742;}
+.news-link h3 {font-size: 18px; line-height: 28px; font-weight: 600; color: #252120; text-transform: capitalize; margin: 5px 0 4px;}
+.news-link a {float: right; font-size: 12px; font-weight: 600; color: #005896; text-transform: capitalize;}
+.news-link a:after {content: '\f0a9'; font-family: 'FontAwesome'; display: inline-block; margin-left: 9px;}
+
 
 /* -----------------------------------------
 

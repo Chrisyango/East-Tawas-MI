@@ -291,12 +291,12 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		let departmentsLinkCount = $('.departments-link').length;
-		const departmentsItem = function(num) {
-			return (departmentsLinkCount >= num ? num : departmentsLinkCount);
+		let quickLinkCount = $('.quick-link').length;
+		const quickLinksItem = function(num) {
+			return (quickLinkCount >= num ? num : quickLinkCount);
 		}
-		$("#departments-links").owlCarousel({
-			loop: departmentsLinkCount > 1 ? true : false,
+		$("#quick-links-wrapper").owlCarousel({
+			loop: quickLinkCount > 1 ? true : false,
 			responsiveClass: true,
 			nav: true,
 			autoHeight: true,
@@ -304,19 +304,45 @@
 			margin: 0,
 			responsive: {
 				0: {
-					items: departmentsItem(2),
+					items: quickLinksItem(2),
 				},
-				500: {
-					items: departmentsItem(3),
+				600: {
+					items: quickLinksItem(2),
 				},
 				800: {
-					items: departmentsItem(5),
+					items: quickLinksItem(3),
 				},
-				1100: {
-					items: departmentsItem(7),
+				1000: {
+					items: quickLinksItem(4),
 				},
-				1400: {
-					items: departmentsItem(9),
+				1200: {
+					items: quickLinksItem(5),
+					loop: false,
+					nav: false
+				}
+			}
+		});
+
+		let newsLinkCount = $('.news-link').length;
+		const newsLinksItem = function(num) {
+			return (newsLinkCount >= num ? num : newsLinkCount);
+		}
+		$("#news-links").owlCarousel({
+			loop: newsLinkCount > 1 ? true : false,
+			responsiveClass: true,
+			nav: true,
+			autoHeight: true,
+			navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
+			margin: 30,
+			responsive: {
+				0: {
+					items: newsLinksItem(1),
+				},
+				767: {
+					items: newsLinksItem(2),
+				},
+				1200: {
+					items: newsLinksItem(3),
 					loop: false,
 					nav: false
 				}

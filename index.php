@@ -116,23 +116,23 @@
 		<div class="container">
 			<div id="quick-links-wrapper" class="owl-carousel">
 				<a href="./" class="quick-link">
-					<i class="fa fa-credit-card"></i>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
 					<span>bill pay</span>
 				</a><!-- /.quick-links -->
 				<a href="./" class="quick-link">
-					<i class="fa fa-folder-open"></i>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql2.png') center no-repeat;background-size:cover;"></div>
 					<span>forms & documents</span>
 				</a><!-- /.quick-links -->
 				<a href="./" class="quick-link">
-					<i class="fa fa-users"></i>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql3.png') center no-repeat;background-size:cover;"></div>
 					<span>get connected</span>
 				</a><!-- /.quick-links -->
 				<a href="./" class="quick-link">
-					<i class="fa fa-envelope"></i>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql4.png') center no-repeat;background-size:cover;"></div>
 					<span>contact us</span>
 				</a><!-- /.quick-links -->
 				<a href="./" class="quick-link">
-					<i class="fa fa-clipboard-list"></i>
+					<div class="quick-link-img" style="background:url('./_assets_/images/ql5.png') center no-repeat;background-size:cover;"></div>
 					<span>code of ordinances</span>
 				</a><!-- /.quick-links -->
 			</div><!-- /#quick-links-wrapper.owl-carousel -->
@@ -144,24 +144,30 @@
 		<section id="news">
 			<div class="container">
 				<h2>recent news</h2>
-				<div id="news-links">
+				<div id="news-links" class="owl-carousel">
 					<div class="news-link">
-						<div class="news-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<span>feb. 18, 2019</span>
-						<h3>news post title cras egestas ligula purus</h3>
-						<a href="./">read more</a>
+						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+						<div class="news-info">
+							<span>feb. 18, 2019</span>
+							<h3>news post title cras egestas ligula purus</h3>
+							<a href="./">read more</a>
+						</div><!-- /.news-info -->
 					</div><!-- /.news-link -->
 					<div class="news-link">
-						<div class="news-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<span>feb. 14, 2019</span>
-						<h3>consectetur ligula bibendum tellus malesuada</h3>
-						<a href="./">read more</a>
+						<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
+						<div class="news-info">
+							<span>feb. 14, 2019</span>
+							<h3>consectetur ligula bibendum tellus malesuada</h3>
+							<a href="./">read more</a>
+						</div><!-- /.news-info -->
 					</div><!-- /.news-link -->
 					<div class="news-link">
-						<div class="news-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<span>feb. 7, 2019</span>
-						<h3>cras ipsum inceptos ridiculus egestas</h3>
-						<a href="./">read more</a>
+						<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
+						<div class="news-info">
+							<span>feb. 7, 2019</span>
+							<h3>cras ipsum inceptos ridiculus egestas</h3>
+							<a href="./">read more</a>
+						</div><!-- /.news-info -->
 					</div><!-- /.news-link -->
 				</div><!-- /#news-links -->
 				<a href="./" class="btn">see all news</a>
