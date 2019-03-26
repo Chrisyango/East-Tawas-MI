@@ -264,11 +264,13 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 
 /*--------------- #content ---------------*/
 #content {margin-top: 38px;}
-#content .btn {position: absolute; font-size: 12px; letter-spacing: 0.1em; font-weight: 600!important; width: 225px; height: 35px; border-radius: 17.5px;}
+#content .btn {position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); font-size: 12px; letter-spacing: 0.1em; font-weight: 600!important; height: 35px; border-radius: 17.5px;}
+#content h2 {font-size: 38px; line-height: 89px; font-weight: 700; color: #005896; text-align: center; text-transform: uppercase;}
+
 
 #news {position: relative; padding: 64px 0;}
-#news h2 {font-size: 38px; line-height: 89px; font-weight: 700; color: #005896; text-align: center; text-transform: uppercase; margin-bottom: 14px;}
-#news a.btn {left: 50%; bottom: 18px; transform: translateX(-50%);}
+#news h2 {margin-bottom: 14px;}
+#news a.btn {width: 225px;}
 #news-links .owl-height {height: 500px!important;}
 .news-link {border-radius: 5px; box-shadow: 0px 3px 20.37px 0.63px rgba(0, 0, 0, 0.08);}
 .news-link-img {width: 100%; height: 300px; border-radius: 5px 5px 0 0;}
@@ -277,6 +279,12 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 .news-link h3 {font-size: 18px; line-height: 28px; font-weight: 600; color: #252120; text-transform: capitalize; margin: 5px 0 4px;}
 .news-link a {float: right; font-size: 12px; font-weight: 600; color: #005896; text-transform: capitalize;}
 .news-link a:after {content: '\f0a9'; font-family: 'FontAwesome'; display: inline-block; margin-left: 9px;}
+
+
+#events {position: relative; padding: 46px 0 85px;}
+#events h2 {margin-bottom: 6px;}
+#events img {width: 920px; display: block; margin: 0 auto;}
+#events a.btn {width: 237px;}
 
 
 /* -----------------------------------------
