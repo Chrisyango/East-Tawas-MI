@@ -469,6 +469,13 @@ footer {color:#fff; line-height: 28px;}
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 550px;}
+	#slider .container {transform: translate(-49.75%, -60%)}
+	#slider h1 {font-size: 80px;}
+	#slider h1 span {font-size: 20px;}
+	#hero-effect {width: 400px; height: 396px; transform: translate(-64%, -53%);}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -481,13 +488,25 @@ footer {color:#fff; line-height: 28px;}
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 56px;}
+	#slider h1 span {font-size: 18px;}
+	#hero-effect {width: 350px; height: 347px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 42px; line-height: 60px;}
+	#slider h1 span {font-size: 18px;}
+	#hero-effect {width: 275px; height: 273px; transform: translate(-55%, -53%);}
+
+}
 
 @media print {
 	header,
