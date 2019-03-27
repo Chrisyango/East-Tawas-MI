@@ -46,7 +46,7 @@
 		</a><!-- /.logo -->
 
 		<div id="toggles" class="hidden-lg hidden-md">
-			<div tabindex="0" id="search-toggle" class="fa fa-search"></div>
+			<div tabindex="0" id="search-toggle-mobile" class="fa fa-search"></div>
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
