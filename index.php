@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,900|Roboto:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -203,7 +203,7 @@
 		
 	<section id="revize-logo">
 		<div class="container">
-			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, the Government Website Experts.</span>
+			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, the Government Website Experts</span>
 			<a href="./">login</a>
 		</div><!-- /.container -->
 	</section><!-- /#revize-logo -->

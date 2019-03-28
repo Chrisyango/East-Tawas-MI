@@ -28,8 +28,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{display: block; font-size: 28px; font-weight: 700; text-transform: uppercase; color: #005896; margin: 16px 0 22px;}
+.subheader{display: block; font-size: 22px; line-height: 23px; font-weight: 600; text-transform: uppercase; color: #d13742; margin: 27px 0 17px;}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -304,8 +304,8 @@ footer {color:#fff; line-height: 28px;}
 #top-footer .social-links a {margin-left: 3px;}
 #revize-logo {background-color: #031928;text-align:center; font-size: 13px; font-weight: 500; padding: 5px 0 7px;}
 #revize-logo a {color:#90b7d2;text-decoration: none;text-transform: capitalize;}
-#revize-logo span {position: relative; margin-right: 12px;}
-#revize-logo span:after {content:''; position: absolute; top: 3px; right: -7px; bottom: 0; background-color: #fff; width: 1px;}
+#revize-logo span {position: relative; margin-right: 15px;}
+#revize-logo span:after {content:''; position: absolute; top: 3px; right: -10px; bottom: 0; background-color: #fff; width: 1px;}
 
 
 /* -----------------------------------------
@@ -313,19 +313,32 @@ footer {color:#fff; line-height: 28px;}
 #inner
 
 -----------------------------------------*/
+#freeform #slider {height: 300px;}
+#freeform .bxslider>li:after {background-image: none;}
+
+/*--------------- #flyout ---------------*/
+#side-content {padding-top: 85px;}
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
+#flyout span{text-decoration:none;padding:0;display:block;font-size: 13px; line-height: 30px; color: #005896; text-transform: capitalize; font-weight: 600;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
+#flyout-header {font-size: 22px; line-height: 23px; font-weight: 600; color: #d13742; text-transform: uppercase; display: block; margin-bottom: 16px;}
 
-#breadcrumbs{font-size:13px;text-transform:capitalize}
-#breadcrumbs p{margin:0}
-#breadcrumbs a{text-decoration:none}
-#breadcrumbs i{font-size:13px;margin:0 4px}
+/*--------------- #entry ---------------*/
+#breadcrumbs{font-size:12px;text-transform:capitalize;}
+#breadcrumbs p{margin:0;color: #005896;}
+#breadcrumbs a{text-decoration:none;color: #031928; font-weight: 700;}
+#breadcrumbs a:after {content: '\f04b'; position: relative; top: -2px; font-family: 'FontAwesome'; font-size: 7px; margin: 0 9px;}
+
+#page-title {font-size: 28px; font-weight: 700; text-transform: uppercase; color: #005896; margin: 16px 0 22px;}
+
+#entry {padding: 46px 0 29px;}
+#post p {font-size: 15px; line-height: 23px; color: #252120; margin-bottom: 15px;}
+#post ul {padding: 0; margin: 18px 0 17px 33px;}
 
 /* -----------------------------------------
 
