@@ -12,8 +12,6 @@
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="_assets_/css/animate.min.css">
-	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -258,10 +256,8 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
-<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 
 </body>
