@@ -99,6 +99,28 @@
 </section><!-- /#slider -->
 
 <main id="main">
+	<div id="side-nav" class="hidden-sm hidden-xs">
+		<a href="./" class="side-nav-link active">
+		<div class="side-nav-img" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
+			<span>bill pay</span>
+		</a><!-- /.side-nav-link -->
+		<a href="./" class="side-nav-link">
+		<div class="side-nav-img" style="background:url('./_assets_/images/ql2.png') center no-repeat;background-size:cover;"></div>
+			<span>forms & documents</span>
+		</a><!-- /.side-nav-link -->
+		<a href="./" class="side-nav-link">
+		<div class="side-nav-img" style="background:url('./_assets_/images/ql3.png') center no-repeat;background-size:cover;"></div>
+			<span>get connected</span>
+		</a><!-- /.side-nav-link -->
+		<a href="./" class="side-nav-link">
+		<div class="side-nav-img" style="background:url('./_assets_/images/ql4.png') center no-repeat;background-size:cover;"></div>
+			<span>contact us</span>
+		</a><!-- /.side-nav-link -->
+		<a href="./" class="side-nav-link">
+		<div class="side-nav-img" style="background:url('./_assets_/images/ql5.png') center no-repeat;background-size:cover;"></div>
+			<span>code of ordinances</span>
+		</a><!-- /.side-nav-link -->
+	</div><!-- /#side-nav -->
 	<div class="container">
 		<article id="entry">
 			<section id="breadcrumbs">
