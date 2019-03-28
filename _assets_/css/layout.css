@@ -313,8 +313,17 @@ footer{color:#fff;line-height:28px}
 #inner
 
 -----------------------------------------*/
+#freeform main {position: relative; overflow: hidden;}
 #freeform #slider{height:300px}
 #freeform .bxslider>li:after{background-image:none}
+
+/*--------------- #side-nav ---------------*/
+#side-nav {position: absolute; top: 50px; right: 0; z-index: 51;}
+.side-nav-link {position: relative; right: -165px; display: block; text-decoration: none; background-color: #005896; border-radius: 5px 0 0 5px; padding: 10px 0 4px 8px; margin-bottom: 4px; transition: all 0.3s;}
+.side-nav-link.active {background-color: #d13742; right: 0;}
+.side-nav-link:hover {right: 0; text-decoration: none;}
+.side-nav-img {display: inline-block; width: 25px; height: 20px;}
+.side-nav-link span {font-size: 12px; line-height: 19px; letter-spacing: 0.1em; font-weight: 700; color: #fff; text-transform: uppercase; display: inline-block; position: relative; top: -6px; left: 6px;}
 
 /*--------------- #flyout ---------------*/
 #flyout{margin:0;padding:0}
