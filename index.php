@@ -146,27 +146,27 @@
 				<div id="news-links" class="owl-carousel">
 					<div class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-info">
+						<div class="news-link-info equal">
 							<span>feb. 18, 2019</span>
 							<h3>news post title cras egestas ligula purus</h3>
 							<a href="./">read more</a>
-						</div><!-- /.news-info -->
+						</div><!-- /.news-link-info -->
 					</div><!-- /.news-link -->
 					<div class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-info">
+						<div class="news-link-info equal">
 							<span>feb. 14, 2019</span>
 							<h3>consectetur ligula bibendum tellus malesuada</h3>
 							<a href="./">read more</a>
-						</div><!-- /.news-info -->
+						</div><!-- /.news-link-info -->
 					</div><!-- /.news-link -->
 					<div class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="news-info">
+						<div class="news-link-info equal">
 							<span>feb. 7, 2019</span>
 							<h3>cras ipsum inceptos ridiculus egestas</h3>
 							<a href="./">read more</a>
-						</div><!-- /.news-info -->
+						</div><!-- /.news-link-info -->
 					</div><!-- /.news-link -->
 				</div><!-- /#news-links -->
 				<a href="./" class="btn">see all news</a>
@@ -277,12 +277,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
 <script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
-<script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 
 </body>
