@@ -304,7 +304,7 @@
 			margin: 0,
 			responsive: {
 				0: {
-					items: quickLinksItem(2),
+					items: quickLinksItem(1),
 				},
 				600: {
 					items: quickLinksItem(2),

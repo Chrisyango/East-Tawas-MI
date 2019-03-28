@@ -254,8 +254,11 @@ nav,
 
 /*--------------- #quick-links ---------------*/
 #quick-links {position: relative; margin-top: -91px; z-index: 51;}
-#quick-links .container {width: 1480px;}
+#quick-links .container {width: 1480px; max-width: calc(100% - 60px);}
 #quick-links-wrapper .owl-item {padding: 0 0 0 42px;}
+#quick-links-wrapper .owl-prev,
+#quick-links-wrapper .owl-next {position: absolute; top: 50%; left: -30px; transform: translateY(-50%); font-size: 24px; color: #fff;}
+#quick-links-wrapper .owl-next {left: unset; right: -30px;}
 a.quick-link {position: relative; display: block; text-decoration: none; color: #90b7d2;}
 a.quick-link:after {content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: 1px; background: rgba(144,183,210,.3);}
 a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate(-30%, -60%); font-size: 16px; line-height: 19px; letter-spacing: 0.1em; font-weight: 700; text-transform: uppercase; color: #fff;}
