@@ -238,7 +238,7 @@ nav,
 
 #search {display: inline-block; position: relative; width: 201px; margin-top: 33px; top: -1px;}
 #search form {margin: 0;}
-#search input {font-size: 13px; background-color: #005896; color: #fff; border-radius: 25px; height: 36px;}
+#search input {font-size: 13px; background-color: #005896; color: #fff; border: none; border-radius: 25px; height: 36px;}
 #search input::placeholder {font-size: 13px; color: #fff;}
 #search button {position: absolute; top: 3px; right: 2px; font-size: 16px; width: 30px; height: 30px; line-height: 30px; text-align: center; padding: 0; border-radius: 50%; background-color: #fff; color: #005896!important;}
 
@@ -317,14 +317,13 @@ footer {color:#fff; line-height: 28px;}
 #freeform .bxslider>li:after {background-image: none;}
 
 /*--------------- #flyout ---------------*/
-#side-content {padding-top: 85px;}
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{text-decoration:none;padding:0;display:block;font-size: 13px; line-height: 30px; color: #005896; text-transform: capitalize; font-weight: 600;}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#005896; z-index: 100;}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout ul span{font-size:12px;padding:10px;width:180px;color: #fff;}
 #flyout li:hover > ul{display:block}
 #flyout-header {font-size: 22px; line-height: 23px; font-weight: 600; color: #d13742; text-transform: uppercase; display: block; margin-bottom: 16px;}
 
@@ -428,6 +427,8 @@ footer {color:#fff; line-height: 28px;}
 	#nav ul ul {top: 0; left: 100%; border-radius: 0 5px 5px 0;}
 	#nav>li:hover>a.mega:after{content:'';position:absolute;bottom:0px;left:14px;right:6px;height:5px;background-color:#d13742;border-radius:2px 2px 0 0}
 
+	/*--------------- #flyout ---------------*/
+	#side-content {padding-top: 85px;}
 }
 
 @media only screen and (max-width:1440px) {
@@ -481,14 +482,18 @@ footer {color:#fff; line-height: 28px;}
 	#nav li li:hover > a{background:none;color:#fff}
 	#search {display: none; width: 330px;}
 
+	#side-content {margin-top: 15px;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;color:#fff;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
+	#flyout-wrap {background-color: #005896;}
+	#flyout-header {display: none;}
+	#flyout-toggle {padding: 15px; color: #fff;}
 
 	/*--------------- #slider ---------------*/
 	#slider {height: 550px;}
@@ -513,6 +518,9 @@ footer {color:#fff; line-height: 28px;}
 	/*--------------- footer ---------------*/
 	#top-footer {padding: 30px 0; font-size: 14px;}
 	#revize-logo {font-size: 12px;}
+
+	/*--------------- #entry ---------------*/
+	#entry {padding: 30px 0;}
 
 }
 
@@ -544,6 +552,14 @@ footer {color:#fff; line-height: 28px;}
 	#top-footer {font-size: 13px;}
 	#revize-logo {font-size: 11px;}
 
+	/*--------------- #entry ---------------*/
+	#flyout li span,
+	#flyout li a {font-size: 13px;}
+	#page-title,
+	.header {font-size: 24px;}
+	.subheader {font-size: 20px;}
+	#post p {font-size: 14px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -570,6 +586,11 @@ footer {color:#fff; line-height: 28px;}
 	#top-footer span {display: block;}
 	#top-footer span:after {display: none;}
 	#revize-logo {font-size: 10px;}
+
+	/*--------------- #entry ---------------*/
+	#flyout li span,
+	#flyout li a {font-size: 12px;}
+	#post p {font-size: 14px;}
 
 }
 
