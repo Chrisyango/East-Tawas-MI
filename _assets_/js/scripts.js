@@ -2,7 +2,7 @@
 
 	Theme Name: East Tawas, MI
 	Front-end Developer: Chris Yang
-	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design: Alex Parent
 	Author URI: http://www.revize.com/
 	Date: March 26, 2019
 

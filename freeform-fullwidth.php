@@ -100,7 +100,7 @@
 
 <main id="main">
 	<div id="side-nav" class="hidden-sm hidden-xs">
-		<a href="./" class="side-nav-link active">
+		<a href="./" class="side-nav-link">
 		<div class="side-nav-img" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
 			<span>bill pay</span>
 		</a><!-- /.side-nav-link -->

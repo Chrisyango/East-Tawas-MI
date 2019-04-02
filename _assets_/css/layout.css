@@ -2,7 +2,7 @@
 
 	Theme Name:East Tawas, MI
 	Front-end Developer:Chris Yang
-	Author Design:Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design:Alex Parent
 	Author URI:http://www.revize.com/
 	Date:March 26, 2019
 
@@ -233,14 +233,14 @@ nav,
 #nav li a{display:block;font-size:16px;line-height:20px;font-weight:600;text-transform:uppercase;text-decoration:none;color:#3a3a3a;padding:41px 11px 39px}
 #nav ul{display:none;margin:0;padding:0}
 
-.social-links{display:inline-block;margin-right:10px}
+.social-links{display:inline-block;margin-right:11px}
 .social-links a{font-size:16px;text-decoration:none;width:35px;height:35px;line-height:35px;text-align:center;background-color:#d13742;color:#fff;border-radius:50%;margin-left:7px}
 
-#search{display:inline-block;position:relative;width:201px;margin-top:33px;top:-1px}
+#search{display:inline-block;position:relative;width:200px;margin-top:33px;top:-1px}
 #search form{margin:0}
-#search input{font-size:13px;background-color:#005896;color:#fff;border:none;border-radius:25px;height:36px}
+#search input{font-size:13px;background-color:#005896;color:#fff;border:none;border-radius:25px;height:34px}
 #search input::placeholder{font-size:13px;color:#fff}
-#search button{position:absolute;top:3px;right:2px;font-size:16px;width:30px;height:30px;line-height:30px;text-align:center;padding:0;border-radius:50%;background-color:#fff;color:#005896!important}
+#search button{position:absolute;top:2px;right:2px;font-size:16px;width:30px;height:30px;line-height:30px;text-align:center;padding:0;border-radius:50%;background-color:#fff;color:#005896!important}
 
 
 /*--------------- #slider ---------------*/
@@ -257,7 +257,7 @@ nav,
 #quick-links .container{width:1480px;max-width:calc(100% - 60px)}
 #quick-links-wrapper .owl-item{padding:0 0 0 42px}
 #quick-links-wrapper .owl-prev,
-#quick-links-wrapper .owl-next{position:absolute;top:50%;left:-30px;transform:translateY(-50%);font-size:24px;color:#005896}
+#quick-links-wrapper .owl-next{position:absolute;top:50%;left:-30px;transform:translateY(-50%);font-size:24px;color:#fff}
 #quick-links-wrapper .owl-next{left:unset;right:-30px}
 a.quick-link{position:relative;display:block;text-decoration:none;color:#90b7d2}
 a.quick-link:after{content:'';position:absolute;top:0;bottom:0;right:0;width:1px;background:rgba(144,183,210,.3)}
@@ -280,8 +280,8 @@ a.quick-link span{position:absolute;top:50%;left:50%;transform:translate(-30%, -
 #news-links .owl-prev,
 #news-links .owl-next{position:absolute;top:50%;left:-30px;transform:translate(-50%, -50%);font-size:30px;color:#005896}
 #news-links .owl-next{left:unset;right:-30px}
-.news-link{border-radius:5px;box-shadow:0px 3px 20.37px 0.63px rgba(0, 0, 0, 0.08)}
-.news-link-img{width:100%;height:300px;border-radius:5px 5px 0 0}
+.news-link{border-radius:5px;border-top:5px solid #90b7d2;box-shadow:0px 3px 20.37px 0.63px rgba(0, 0, 0, 0.08)}
+.news-link-img{width:100%;height:295px}
 .news-link-info{padding:28px 35px 51px;background-color:#fff;border-radius:0 0 5px 5px}
 .news-link span{font-size:12px;font-weight:700;text-transform:uppercase;color:#d13742}
 .news-link h3{font-size:18px;line-height:28px;font-weight:600;color:#252120;text-transform:capitalize;margin:5px 0 4px}
@@ -316,12 +316,12 @@ footer{color:#fff;line-height:28px}
 #freeform main{position:relative;overflow:hidden}
 #freeform #slider{height:300px}
 #freeform .bxslider>li:after{background-image:none}
+#freeform .floating-share-btn{right:unset;left:0}
 
 /*--------------- #side-nav ---------------*/
 #side-nav{position:absolute;top:50px;right:0;z-index:51}
-.side-nav-link{position:relative;right:-165px;display:block;text-decoration:none;background-color:#005896;border-radius:5px 0 0 5px;padding:10px 0 4px 8px;margin-bottom:4px;transition:all 0.3s}
-.side-nav-link.active{background-color:#d13742;right:0}
-.side-nav-link:hover{right:0;text-decoration:none}
+.side-nav-link{position:relative;right:-180px;display:block;text-decoration:none;background-color:#005896;border-radius:5px 0 0 5px;padding:10px 15px 4px 8px;margin-bottom:4px;transition:all 0.3s}
+.side-nav-link:hover{background-color:#d13742;right:0;text-decoration:none}
 .side-nav-img{display:inline-block;width:25px;height:20px;filter:brightness(300%) contrast(100%)}
 .side-nav-link span{font-size:12px;line-height:19px;letter-spacing:0.1em;font-weight:700;color:#fff;text-transform:uppercase;display:inline-block;position:relative;top:-6px;left:6px}
 
@@ -332,7 +332,9 @@ footer{color:#fff;line-height:28px}
 #flyout span{text-decoration:none;padding:0;display:block;font-size:13px;line-height:30px;color:#005896;text-transform:capitalize;font-weight:600}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#005896;z-index:100}
 #flyout ul a,
-#flyout ul span{font-size:12px;padding:10px;width:180px;color:#fff}
+#flyout ul span{font-size:12px;padding:10px 15px;width:180px;color:#fff}
+#flyout ul a:hover,
+#flyout ul span:hover{background:rgba(0,0,0,.2)}
 #flyout li:hover > ul{display:block}
 #flyout-header{font-size:22px;line-height:23px;font-weight:600;color:#d13742;text-transform:uppercase;display:block;margin-bottom:16px}
 
@@ -488,17 +490,20 @@ footer{color:#fff;line-height:28px}
 	#nav .toggle,
 	#nav .toggle2,
 	#flyout .toggle{position:absolute;right:0;top:0;background:rgba(0,0,0,.2)}
+	#flyout .toggle{width:33px;height:33px;line-height:33px}
 	#nav li li:hover > a{background:none;color:#fff}
-	#search{display:none;width:330px}
+	#search{display:none;width:calc(100% - 30px)}
 
 	#side-content{margin-top:15px}
 	#flyout{display:none}
 	#flyout li a,
-	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;color:#fff}
+	#flyout li span{padding:10px 15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;color:#fff}
+	#flyout li a:hover,
+	#flyout li span:hover{background:rgba(0,0,0,.2)}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
-	#flyout li:hover > ul{display:none}
+	#flyout li:hover>ul{display:none}
 	#flyout-wrap{background-color:#005896}
 	#flyout-header{display:none}
 	#flyout-toggle{padding:15px;color:#fff}
